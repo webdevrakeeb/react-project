@@ -1,5 +1,5 @@
-import BookRow from "./BookRow"
 import PropTypes from "prop-types";
+import BookRow from "./BookRow";
 
 function Booklist({searchTerm, books, onFeatureBook}) {
   const rows = [];
@@ -14,19 +14,6 @@ function Booklist({searchTerm, books, onFeatureBook}) {
     <div className="space-y-4">
       {rows}
     </div>
-    
-    // <ul className="space-y-4">
-    //     {
-    //       books.map((book) => (
-    //         <li 
-    //           key={book.id}
-    //           className="flex items-center justify-between p-4 border bg-white shadow rounded"
-    //         >
-    //           <BookRow book = {book}/>
-    //         </li>
-    //       ))
-    //     }
-    // </ul>
   )
 }
 

@@ -20,4 +20,4 @@ BookRow.propTypes = {
   onFeatureBook: PropTypes.func.isRequired
 }
 
-export default BookRow
+export default BookRow;
